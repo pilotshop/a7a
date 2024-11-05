@@ -21,7 +21,7 @@ from myapi.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('django/jsonresponsemodel/', views.no_rest_no_model),
-    path("djangojson/", views.no_rest_model),
+    path("", views.no_rest_model),
     path('api-auth/', include('rest_framework.urls')),
     path("rest/", views.graduationproject),
     path("rest/<int:pk>/", views.graduationproject2),
