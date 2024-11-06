@@ -1,5 +1,5 @@
 {
   "builds": {
-    "src": "wsgi.py"
+    "src": "/home/sonic/Desktop/ivision/ivision/wsgi.py"
   }
 }
